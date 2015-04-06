@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/Rubro"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textView8"
+        android:layout_toEndOf="@+id/textView8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/Tipo"
+        android:layout_below="@+id/Rubro"
+        android:layout_toRightOf="@+id/textView9"
+        android:layout_toEndOf="@+id/textView9" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/Valor"
+        android:layout_below="@+id/Tipo"
+        android:layout_toRightOf="@+id/textView10"
+        android:layout_toEndOf="@+id/textView10" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/ValorA"
+        android:layout_below="@+id/Valor"
+        android:layout_alignLeft="@+id/Valor"
+        android:layout_alignStart="@+id/Valor" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Rubro:"
+        android:id="@+id/textView8"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Tipo:"
+        android:id="@+id/textView9"
+        android:layout_above="@+id/Valor"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Valor Esp:"
+        android:id="@+id/textView10"
+        android:layout_below="@+id/Tipo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Valor Act:"
+        android:id="@+id/textView11"
+        android:layout_below="@+id/textView10"
+        android:layout_toLeftOf="@+id/ValorA"
+        android:layout_toStartOf="@+id/ValorA" />
+
+</RelativeLayout>

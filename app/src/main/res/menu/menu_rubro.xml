@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".Proyecto1">
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="Opciones"
+        android:orderInCategory="100"
+        app:showAsAction="never" >
+        <menu>
+            <item android:title="Insertar Rubro"
+                  android:id="@+id/Ins"
+                  android:icon="@drawable/index"/>
+            <item android:title="Modificar Rubro"
+                  android:id="@+id/Mod"
+                  android:icon="@drawable/edit"/>
+            <item android:title="Borrar Rubro"
+                  android:id="@+id/Del"
+                  android:icon="@drawable/delete"/>
+       </menu>
+
+    </item>
+
+</menu>
